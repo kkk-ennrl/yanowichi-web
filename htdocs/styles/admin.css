@@ -1,0 +1,359 @@
+@media screen and (min-width:  1000px) {
+	.bg {
+		position: fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		z-index: -1;
+		background: url(/img/bg.png) no-repeat;
+		background-size: cover;
+	}
+	.menu {
+		position: absolute;
+		width: 400px;
+		background: rgba(255, 255, 255, 0.5);
+		height: calc(100% - 100px);
+		left: 50px;
+		top: 50px;
+		border-radius: 15px;
+	}
+
+	.content {
+		position: absolute;
+		width: calc(100% - 400px - 50px - 50px - 50px);
+		height: calc(100% - 100px);
+		left: 500px;
+		right: 50px;
+		top: 50px;
+		bottom: 50px;
+		background: rgba(255, 255, 255, 0.5);
+		border-radius: 15px;
+	}
+	.content .title{
+		position: absolute;
+		left: 40px;
+		font-size: 30px;
+		line-height: 30px;
+		top:40px;
+		font-weight: 900;
+		color: white;
+		font-family: "Montserrat";
+		user-select: none;
+		color:#1C212E;
+
+	}
+	.menu .header {
+		position: absolute;
+		width: 350px;
+		left: 25px;
+		top: 25px;
+		height: 100px;
+		line-height: 100px;
+		font-family: "Montserrat";
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		user-select: none;
+		color: white;
+		background: rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+	}
+	.menu .header span {
+		position: absolute;
+		bottom: 10px;
+		color: rgba(255, 255, 255, 0.5);
+		width: 100%;
+		font-size: 14px;
+		line-height: 20px;
+		left: 0px;
+		text-align: center;
+	}
+	.menu .home-button {
+		position: absolute;
+		top: 150px;
+		height: 50px;
+		user-select: none;
+		width: 350px;
+		border-radius: 10px;
+		left: 25px;
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.menu .home-button:hover {
+		background: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+	}
+	.menu .home-button img {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 40px;
+		height: 40px;
+	}
+	.menu .home-button .text {
+		position: absolute;
+		top: 0px;
+		left: 50px;
+		width: 300px;
+		bottom: 0px;
+		height: 50px;
+		color: rgba(255, 255, 255, 1);
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: bold;
+	}
+	.menu .teachers-button {
+		position: absolute;
+		top: 210px;
+		height: 50px;
+		user-select: none;
+		width: 350px;
+		border-radius: 10px;
+		left: 25px;
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.menu .teachers-button:hover {
+		background: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+	}
+	.menu .teachers-button img {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 40px;
+		height: 40px;
+	}
+	.menu .teachers-button .text {
+		position: absolute;
+		top: 0px;
+		left: 50px;
+		width: 300px;
+		bottom: 0px;
+		height: 50px;
+		color: rgba(255, 255, 255, 1);
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: bold;
+	}
+
+	.menu .lessons-button {
+		position: absolute;
+		top: 270px;
+		height: 50px;
+		user-select: none;
+		width: 350px;
+		border-radius: 10px;
+		left: 25px;
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.menu .lessons-button:hover {
+		background: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+	}
+	.menu .lessons-button img {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 40px;
+		height: 40px;
+	}
+	.menu .lessons-button .text {
+		position: absolute;
+		top: 0px;
+		left: 50px;
+		width: 300px;
+		bottom: 0px;
+		height: 50px;
+		color: rgba(255, 255, 255, 1);
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: bold;
+	}
+	.menu .button-menu.selected {
+		background: rgba(0, 0, 0, 0.4);
+	}
+	.menu .button-menu.selected:hover {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.content .rp-b {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		right: 10px;
+		overflow-y: auto;
+		bottom: 20px;
+		width: calc(100% - 20px - 10px);
+		height: calc(100% - 100px - 20px);
+		user-select: none;
+	}
+	.content .rp-b .rp-box {
+		position: relative;
+		border-radius: 10px;
+		margin: 10px;
+		text-align: center;
+		width: 200px;
+		height: 300px;
+		background: rgba(0, 0, 0, 0.5);
+		display: inline-block;
+		user-select: none;
+	}
+	.content .rp-b .rp-box .rp-box-title {
+		position: relative;
+		width:100%;
+		font-family: "Montserrat";
+		font-weight: 900;
+		text-align: center;
+		color:white;
+		margin-top:5px;
+		line-height: 30px;
+		height:30px;
+		user-select: none;
+
+	}
+	.content .rp-b .rp-box .rp-box-title1 {
+		position: relative;
+		width:100%;
+		font-family: "Montserrat";
+		font-weight: 900;
+		text-align: center;
+		color:white;
+		margin-top:5px;
+		line-height: 30px;
+		height:30px;
+		user-select: none;
+
+	}
+	.content .rp-b .rp-box-el * {
+		display: inline-block;
+	}
+	.content .rp-b .rp-box-el {
+		width:calc(100% - 20px);
+		margin-left:10px;
+		height:26px;
+		margin-top:5px;
+		border-radius: 6px;
+		margin-bottom: 5px;
+		margin-right:10px;
+		padding:0;
+		background:rgba(255, 255, 255, 0.2);
+		user-select: none;
+	}
+	.content .rp-b .rp-box-el .rp-box-num {
+		position: relative;
+		width: 22px;
+		height:22px;
+		background:rgba(255, 255, 255, 0.2);
+		margin-top:2px;
+		margin-left:2px;
+		line-height: 22px;
+		border-radius: 4px;
+		color:white;
+		font-weight: bold;
+		font-family: "Roboto Mono";
+		user-select: none;
+		text-align: center;
+		bottom:7px;
+		user-select: none;
+	}
+	.content .rp-b .rp-box-el .rp-box-title1 {
+		width:calc(100% - 26px - 26px);
+		height: 26px;
+		line-height: 26px;
+		bottom:8px;
+		margin-top:0px;
+		font-weight: 400;
+		margin-left:2px;
+		font-family: "Montserrat";
+		user-select: none;
+		text-align: center;
+		text-transform: uppercase;
+		user-select: none;
+	}
+	.content .rp-b .rp-box-el .rp-box-img-edit{
+		width:22px;
+		height:22px;
+		margin:2px;
+	}
+	.content .rp-b .rp-box-el input {
+		padding-left: 3px;
+		padding-right: 3px;
+		width: calc(100% - 6px);
+		background: rgba(255, 255, 255, 0.2);
+		border: 0px;
+		margin: 0px;
+		height: calc(100% - 7px) ;
+		margin-top: 2px;
+		border-radius: 	4px;
+		outline: 	none;
+		font-family: 	"Montserrat";
+		text-align: 	center	;
+	}
+	.content .title-day {
+		position: absolute;
+		right: 40px;
+		font-size: 24px;
+		line-height: 30px;
+		top:40px;
+		font-weight: 900;
+		color: white;
+		font-family: "Montserrat";
+		user-select: none;
+		color:#1C212E;
+	}
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.1;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	opacity: 0.7;
+    background-color: #1C212E;
+}
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+    display:none;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    background:
+        linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+    display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background:
+        linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+    display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background:
+        linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+    display: none;
+}

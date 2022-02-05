@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+	font-weight: 900;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+	font-weight: 700;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+	font-weight: 100;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+	font-weight: 200;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+	font-weight: 600;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+	font-weight: 400;} /* Montserrat */
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+	font-weight: 300;} /* Montserrat */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Black.ttf);
+	font-weight: 900;} /* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+	font-weight: 700;} /* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Light.ttf);
+	font-weight: 200;} /* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Medium.ttf);
+	font-weight: 600;} /* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+	font-weight: 400;} /* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto-Thin.ttf);
+	font-weight: 100;} /* Roboto */
+@font-face {
+	font-family: "Roboto Mono";
+	src: url(../fonts/RobotoMono/RobotoMono-Bold.ttf);
+	font-weight: 800;} /* RobotoMono */
+@font-face {
+	font-family: "Roboto Mono";
+	src: url(../fonts/RobotoMono/RobotoMono-Medium.ttf);
+	font-weight: 600;} /* RobotoMono */
+@font-face {
+	font-family: "Roboto Mono";
+	src: url(../fonts/RobotoMono/RobotoMono-Regular.ttf);
+	font-weight: 400;} /* RobotoMono */

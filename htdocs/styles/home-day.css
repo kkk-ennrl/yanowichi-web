@@ -1,0 +1,179 @@
+@media screen and (min-width:1000px) {
+	body {
+		background: #B8D2F0;
+	}
+	.content {
+		position: absolute;
+		height: calc((40px + ((36px + 5px) * 8) + 20px) * 2);
+		width:calc(100% - 100px);
+		left: 50px;
+		/*top:calc(80px + ((100% - 100px) /2 - (((40px + ((36px + 5px) * 8) + 20px) * 2))/2) );*/
+		top: 120px;
+	}
+	.content .rp-box {
+		width:calc((100% - 100px) /6);
+		background: rgba(255, 255, 255, 0.3);
+		position: absolute;
+		height: calc(40px + ((36px + 5px) * 8) + 10px);
+		border-radius: 10px
+	}
+	.content .rp-box[klass="1klass"] {
+		top:0px;
+		left:0px;
+	}
+	.content .rp-box[klass="2klass"] {
+		top:0px;
+		left:calc((((100% - 50px) /6) + 10px)*1);
+	}
+	.content .rp-box[klass="3klass"] {
+		top:0px;
+		left:calc((((100% - 50px) /6) + 10px)*2);
+	}
+	.content .rp-box[klass="4klass"] {
+		top:0px;
+		left:calc((((100% - 50px) /6) + 10px)*3);
+	}
+	.content .rp-box[klass="5klass"] {
+		top:0px;
+		left:calc((((100% - 50px) /6) + 10px)*4);
+	}
+	.content .rp-box[klass="6klass"] {
+		top:0px;
+		left:calc((((100% - 50px) /6) + 10px)*5);
+	}
+	.content .rp-box[klass="9klass"] {
+		top:calc(40px + ((36px + 5px) * 8) + 10px + 20px);
+		left:calc(50% - ((100% - 50px) /6) / 2);
+	}
+	.content .rp-box[klass="10klass"] {
+		top:calc(40px + ((36px + 5px) * 8) + 10px + 20px);
+		left:calc(50% - ((100% - 50px) /6) / 2 + ((100% - 50px) /6) + 10px);
+	}
+	.content .rp-box[klass="11klass"] {
+		top:calc(40px + ((36px + 5px) * 8) + 10px + 20px);
+		left:calc(50% - ((100% - 50px) /6) / 2 + (((100% - 50px) /6) + 10px)*2);
+	}
+	.content .rp-box[klass="8klass"] {
+		top:calc(40px + ((36px + 5px) * 8) + 10px + 20px);
+		left:calc(50% - ((100% - 50px) /6) / 2 - (((100% - 50px) /6) + 10px)*1);
+	}
+	.content .rp-box[klass="7klass"] {
+		top:calc(40px + ((36px + 5px) * 8) + 10px + 20px);
+		left:calc(50% - ((100% - 50px) /6) / 2 - (((100% - 50px) /6) + 10px)*2);
+	}
+	.content .rp-box .rp-box-title {
+		position: absolute;
+		height:20px;
+		width:100%;
+		top:10px;
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+		font-family: "Montserrat";
+		font-weight: 900;
+	}
+	.content .rp-box-el {
+		position: absolute;
+		height: 36px;
+		left:10px;
+		background:rgba(255, 255, 255, 0.3);
+		width:calc(100% - 20px);
+		border-radius: 8px;
+	}
+	.content .rp-box-el-0 {top: 40px;}
+	.content .rp-box-el-1 {top: calc(40px + (36px + 5px)*1);}
+	.content .rp-box-el-2 {top: calc(40px + (36px + 5px)*2);}
+	.content .rp-box-el-3 {top: calc(40px + (36px + 5px)*3);}
+	.content .rp-box-el-4 {top: calc(40px + (36px + 5px)*4);}
+	.content .rp-box-el-5 {top: calc(40px + (36px + 5px)*5);}
+	.content .rp-box-el-6 {top: calc(40px + (36px + 5px)*6);}
+	.content .rp-box-el-7 {top: calc(40px + (36px + 5px)*7);}
+	.content .rp-box-el .rp-box-num {
+		position: absolute;
+		width:30px;
+		top:3px;
+		left:3px;
+		background:rgba(0, 0, 0, 0.2);
+		height:30px;
+		border-radius: 6px;
+		line-height: 30px;
+		text-align: center;
+		font-weight: 900;
+		font-family: "Roboto Mono";
+		font-size: 24px;
+	}
+	.content .rp-box-el .rp-box-title1 {
+		position: absolute;
+		width:calc(100% - 36px - 3px);
+		top:0px;
+		bottom:0px;
+		left:36px;
+		right:3px;
+		font-family: "Montserrat";
+		line-height: 36px;
+		height: 36px;
+		text-align: center;
+		font-weight: 600;
+		font-size: 24px;
+	}
+	.menu-box {
+		height:100px;
+		background:rgba(255, 255, 255, 0.2);
+		z-index: 999;
+		position: fixed;
+		backdrop-filter: blur(20px);
+		top:0px;
+		user-select: none;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		width:100%;
+		left:0px;
+	}
+	.menu-box .img-logo {
+		position: absolute;
+		top: 10px;
+		left:10px;
+		width:80px;
+		height:80px;
+		background-color: rgba(255, 255, 255, 0.4);
+		border-radius: 8px;
+		background: rgba(255, 255, 255, 0.4) url(../img/logo.png) no-repeat;
+		background-size:100%;
+	}
+	.menu-box .rp-day {
+		position: absolute;
+		width:300px;
+		height:35px;
+		top: 10px;
+		background:rgba(0, 0, 0, 0.4);
+		right:10px;
+		border-radius: 8px;
+		line-height: 35px;
+		text-align: center;
+		font-family: "Montserrat";
+		font-weight: bold;
+		color:white;
+	}
+	.menu-box .rp-day:hover {
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0.6);
+	}
+	.menu-box .rp-admin {
+		position: absolute;
+		width:300px;
+		height:35px;
+		top: 55px;
+		background:rgba(0, 0, 0, 0.2);
+		right:10px;
+		border-radius: 8px;
+		line-height: 35px;
+		text-align: center;
+		font-family: "Montserrat";
+		font-weight: bold;
+		color:white;
+	}
+	.menu-box .rp-admin:hover {
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0.4);
+	}
+}
